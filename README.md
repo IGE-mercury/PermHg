@@ -20,4 +20,4 @@ The data sources included in the Permafrost Mercury Database (PermHg) are listed
   C.	Vegetation Mercury Observations\
   D.	Aquatic/Water Mercury Observations\
   
-For which we have created a  `.bib` file.
+For each of which a  `.bib` file is available.
