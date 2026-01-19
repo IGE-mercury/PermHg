@@ -4,6 +4,8 @@ This dataset is part of the **Permafrost Mercury Database (PermHg)** initiative,
 
 The database enables cross-site synthesis, model calibration and evaluation, and environmental assessments by standardizing and harmonizing data from diverse sources. Data harmonization steps included unit conversion, categorization of observations by type, and quality control measures to ensure consistency across studies. 
 
+---
+
 ## Contents
 - `sediment_hg.csv` — Data file containing lake sediment Hg observations  
 - `soil_hg_.csv` — Data file containing lake soil Hg observations 
@@ -13,16 +15,14 @@ The database enables cross-site synthesis, model calibration and evaluation, and
 - `METADATA.txt` — Column descriptions, units, and data conventions  
 - `LICENSE.txt` — Data license information  
 
-The data sources included in the Permafrost Mercury Database (PermHg) are listed in for groups:
 
-  A.	Lake Sediment Mercury Observations\
-  B.	Soil Mercury Observations\
-  C.	Vegetation Mercury Observations\
-  D.	Aquatic/Water Mercury Observations\
-  
-For each of which a  `.bib` file is available.
+---
+## License
 
+This dataset is distributed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+If you use or modify this dataset in your work, please refer to the `CITATION.cff` file for citation information.
 
+---
 ## Contribution to this dataset
 
 ### Two branches are available: 
