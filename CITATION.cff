@@ -6,15 +6,10 @@ title: >
   A Consolidated Database of Mercury Observations for Permafrost Regions
 
 version: 1.0
-date-released: 2025
-
+date-released: 2026
 doi: 10.5281/zenodo.17382184
-
-abstract: >
-  A comprehensive database compiling mercury observations from
-  permafrost-dominated regions, designed to support research on
-  mercury cycling, storage, and environmental impacts in cold-region
-  ecosystems.
+type: dataset
+publisher: Zenodo
 
 authors:
   - family-names: Olson
@@ -81,20 +76,6 @@ authors:
     given-names: Scott
     affiliation: Woodwell Climate Research Center, USA
 
-preferred-citation:
-  type: dataset
-  authors:
-    - family-names: Olson
-      given-names: Christine
-  year: 2025
-  title: >
-    A Comprehensive Mercury Database from Permafrost-Dominated Regions
-  version: 1.0
-  publisher: Zenodo
-  doi: 10.5281/zenodo.17382184
 
-notes:
-  - >
-    If you refer to the full database or use multiple components,
-    please cite the concept DOI to capture all versions.
+
 
