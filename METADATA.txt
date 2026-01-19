@@ -1,0 +1,162 @@
+Dataset: A Comprehensive Mercury Database from Permafrost-Dominated Regions
+Version: 1.0
+Date: 2025-10-07
+License: CC-BY-4.0
+
+
+Lake Sediment Data Column Descriptions:
+
+Variable	Units	        Description
+Core_ID		(-)             Unique sample identifier: Concatenation of Site_ID, Location_ID, Latitute, and Longitude
+Site_ID	        (-)	        Site name or code as defined in the reference paper
+Location_ID	(-)	        State, province, or region of sample, as defined in the reference paper
+Country		(-)             Country of sample
+Sample_ID	(-)	        Sample number or code as defined in the reference paper
+Date	        (mm/dd/yyyy)	Date the sample was collected
+Laboratory	(-)	        Name of laboratory or institution where samples were processed
+Contact_Name	(-)	        Name of person who collected, processed, or published the sample data
+Contact_email	(-)	        Email for contact
+paper_code	(-)	        First author Last name _ Publication year e.g., Lim_2020
+Latitude	(deg)	        Latitude of sample
+Longitude	(deg)	        Longitude of sample
+Soil_typ	(-)	        Soil type
+Horizon	        (-)	        Soil horizon of sample
+Veg_typ	        (-)	        Vegetation type
+D_min	        (cm)	        Depth to top of sample
+D_max	        (cm)	        Depth to bottom of sample
+D_ave	        (cm)	        Average depth of sample
+Bulk_den	(g/cm3)	        Bulk soil density
+Bulk_den_err	(g/cm3)	        Uncertainty bulk soil density
+LOI	        (Fraction)	Mass Loss on Ignition
+SOC_inst	(-)	        Technique used to calculate SOC
+SOC	        (%)	        Soil Organic Carbon, ratio of carbon to total soil mass
+SOC_err	        (%)	        Uncertainty Soil Organic Carbon, ratio of carbon to total soil mass
+STHg_inst	(-)	        Instrument or technique to measure STHg
+STHg	        (ng Hg/g soil)	Sediment Total mercury, ratio of Hg mass to total soil mass
+STHg_err	(ng Hg/g soil)	Uncertainty Sediment Total mercury, ratio of Hg mass to total soil mass
+RHgC	        (µg Hg/g C)	Mercury to carbon ratio
+RHgC_err	(µg Hg/g C)	Uncertainty Mercury to carbon ratio
+VWC	        (-)	        Volumetric Water Content
+VWC_err	        (-)	        Uncertainty Volumetric Water Content
+Notes	        (-)	        Notes from extractor regarding data. To avoid long repeated texts in this column we have created 3 identifiers which refer to following descriptions:
+    Note1: for depth average, put in the average depth of TOC and Hg from digitizations since on separate plots but should be matching depths
+
+    Note2: impossible to tell where TOC points were during digitization; for depth average, put in the average depth of TOC and Hg from digitizations since on separate plots but should be matching depths
+
+    Note3: Database compiled by M. Nasr, used in Nasr (2017)
+
+
+
+Collector	(-)	        Initials of extractor
+
+Soil Data Column Descriptions:
+
+Variable	Units	Description
+Core_ID	        (-)	        Workaround to identify unique soil cores; Concatenation of Site_ID, Location_ID, Latitute, and Longitude
+Site_ID	        (-)	        Site name or code as defined in the reference paper
+Location_ID	(-)	        State, province, or region of sample, as defined in the reference paper
+Country	        (-)	        Country of sample
+Sample_ID	(-)	        Sample number or code as defined in the reference paper
+Date	        (mm/dd/yyyy)	Date the sample was collected
+Laboratory	(-)	        Name of laboratory or institution where samples were processed
+Contact_name	(-)	        Name of person who collected, processed, or published the sample data
+Contact_email	(-)	        Email for contact
+paper_code	(-)	        First author Last name _ Publication year 
+Latitude	(deg)	        Latitude of sample
+Longitude	(deg)	        Longitude of sample
+Soil_typ	(-)	        Soil type
+Horizon	        (-)	        Soil horizon of sample
+Veg_typ	        (-)	        Vegetation type
+D_min	        (cm)	        Depth to top of sample
+D_max	        (cm)	        Depth to bottom of sample
+D_ave	        (cm)	        Average depth of sample
+Bulk_den	(g/cm3)	        Bulk soil density
+Bulk_den_err	(g/cm3)	        Uncertainty bulk soil density
+LOI	        (Fraction)	Mass Loss on Ignition
+SOC_inst	(-)	        Technique used to calculate SOC
+SOC	        (%)	        Soil Organic Carbon, ratio of carbon to total soil mass
+SOC_err	        (%)	        Uncertainty Soil Organic Carbon, ratio of carbon to total soil mass
+STHg_inst	(-)	        Instrument or technique to measure STHg
+STHg	        (ng Hg/g soil)	Sediment Total mercury, ratio of Hg mass to total soil mass
+STHg_err	(ng Hg/g soil)	Uncertainty Sediment Total mercury, ratio of Hg mass to total soil mass
+RHgC	        (µg Hg/g C)	Mercury to carbon ratio
+RHgC_err	(µg Hg/g C)	Uncertainty Mercury to carbon ratio
+VWC	        (-)	        Volumetric Water Content
+VWC_err	        (-)	        Uncertainty Volumetric Water Content
+Notes	        (-)	        Notes from extractor regarding data. 
+Extractor	(-)	        Initials of extractor
+Lake_Soil	(-)	        0 = soil, 1 = lake
+
+Vegetation Data Column Descriptions:
+
+Variable	Units	Description
+Core_ID	        (-)	        Unique sample identifier: Concatenation of Site_ID, Location_ID, Latitute, and Longitude
+Site_ID	        (-)	        Site name or code as defined in the reference paper
+Location_ID	(-)	        State, province, or region of sample, as defined in the reference paper
+Sample_ID	(-)	        Sample number or code as defined in the reference paper
+Date	        (mm/dd/yyyy)	Date the sample was collected
+Laboratory	(-)	        Name of laboratory or institution where samples were processed
+Contact_name	(-)	        Name of person who collected, processed, or published the sample data
+Contact_email	(-)	        Email for contact
+Paper_code	(-)	        First author Last name _ Publication year e.g., Lim_2020
+Latitude	(deg)	        Latitude of sample
+Longitude	(deg)	        Longitude of sample
+Veg_spec_common	(-)	        Vegetation species common name
+Veg_spec_sci	(-)	        Vegetation species scientific name
+Veg_typ	        (-)	        Vegetation type
+AGB	        (g/m^2)	        Aboveground biomass, grams per meter-squared, if applicable
+THg_inst	(-)	        Instrument or technique to measure THg
+THg	        (ng Hg/g soil)	Total mercury, nanograms of mercury per gram of soil (equivalent to ug/kg or microgram per kilogram)
+THg_err	        (ng Hg/g soil)	Uncertainty, Total mercury, nanograms of mercury per gram of soil
+Notes	        (-)	        Notes from sample collector regarding data
+Collector	(-)	        Initials of collector
+Component	(-)             Vegetation tissue component	
+
+Aquatic/Water Data Column Descriptions:
+
+Core_ID	        (-)	        Unique sample identifier: Concatenation of Site_ID, Location_ID, Latitute, and Longitude
+Site_ID	        (-)	        Site name or code as defined in the reference paper
+Location_ID	(-)	        State, province, or region of sample, as defined in the reference paper
+Sample_ID	(-)	        Sample number or code as defined in the reference paper
+Date	        (mm/dd/yyyy)	Date the sample was collected in month/day/year format; use 'x' for missing information
+Laboratory	(-)	        Name of laboratory or institution where samples were processed
+Contact_name	(-)	        Name of person who collected, processed, or published the sample data
+Contact_email	(-)	        Email for contact
+Paper_code	(-)	        First author Last name _ Publication year e.g., Lim_2020
+Latitude	(deg)	        Latitude of sample
+Longitude	(deg)	        Longitude of sample
+Soil_type	(-)	        Soil type near sampling location
+Veg_type	(-)	        Vegetation type near sampling location
+Sample_location	(-)	        Description of water body sample was collected from
+PW_soil_descrip	(-)	        Description of soil where porewater sample was taken, if applicable
+Catchment_size	(ha)	        Size of catchment in hectares, if applicable
+Wetland_cover	(%)	        Percent wetland cover, if applicable
+Depth_sample	(cm)	        Depth of water sample from surface
+THg	        (ng/L)	        Total mercury, nanogram per liter
+THg_err	        (ng/L)	        Total mercury, measured uncertainty or error
+DHg	        (ng/L)	        Dissolved mercury, nanogram per liter
+DHg_err	        (ng/L)	        Dissolved mercury, measured uncertainty or error
+DHg_filter	(µm)	        Dissolved mercury filter pore size, micrometers 
+MeHg	        (ng/L)	        Methyl mercury, nanogram per liter
+MeHg_err	(ng/L)	        Methyl mercury, measured uncertainty or error
+TOC	        (mg/L)	        Total organic carbon, milligram per liter as carbon
+TOC_err	        (mg/L)	        Total organic carbon, measured uncertainty or error
+DOC	        (mg/L)	        Dissolved organic carbon, milligram per liter
+DOC_err	        (mg/L)	        Dissolved organic carbon, measured uncertainty or error
+DOC_filter	(µm)	        Dissolved organic carbon filter pore size, micrometers
+RHgC	        (µg Hg/g C)	Mercury (THg) to carbon ratio
+Turbidity	(NTU)	        Turbidity, Nephelometric Turbidity Units 
+pH	        (SU)	        pH of sample
+EC	        (S/m)	        Electrical conductivity, measured in Siemens per meter
+Alk	        (mg/L as CaCO3)	Alkalinity, milligrams per liter as calcium carbonate
+P	        (ug/L)	        Phosphorus, milligrams per liter
+Cl	        (mg/L)	        Chloride, milligrams per liter
+SO4	        (mg/L) 	        Sulfate, milligrams per liter
+TDS	        (mg/L)	        Total dissolved solids, milligrams per liter
+Notes	        (-)	        Notes from collector regarding data
+Collector	(-)	        Initials of sample collector
+
+
+Missing data:
+Numeric fields: -999
+Text fields: 'NA' or 'na'
