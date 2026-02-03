@@ -10,11 +10,9 @@ The database enables cross-site synthesis, model calibration and evaluation, and
 - `sediment_hg.csv` — Data file containing lake sediment Hg observations  
 - `soil_hg_.csv` — Data file containing lake soil Hg observations 
 - `vegetation_hg_.csv` — Data file containing vegetation Hg observations 
-- `water_hg_.csv` — Data file containing aqueous Hg observations 
-- `data_sources.csv` — List of data sources, citations, and DOIs  
+- `water_hg_.csv` — Data file containing aqueous Hg observations  
 - `METADATA.txt` — Column descriptions, units, and data conventions  
 - `LICENSE.txt` — Data license information  
-
 
 ---
 ## License
@@ -42,4 +40,4 @@ After review and validation, changes in `dev` are merged into `main`, and a new 
 3. Submit a pull request (PR) from your branch to the `dev` branch of this repository.  
 4. The maintainers will review your PR and, once approved, merge it into `dev` in preparation for the next official release.
 
-For users who do not use or are not familiar with GitHub, we also welcome data submissions by email using the provided template file.
+For users who do not use or are not familiar with GitHub, we also welcome data submissions by email to [support team](mailto:permhg@univ-grenoble-alpes.fr), using the provided template files.
