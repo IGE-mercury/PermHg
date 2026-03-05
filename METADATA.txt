@@ -7,7 +7,6 @@ License: CC-BY-4.0
 Lake Sediment Data Column Descriptions:
 
 Variable	Units	        Description
-Core_ID		(-)             Unique sample identifier: Concatenation of Site_ID, Location_ID, Latitute, and Longitude
 Site_ID	        (-)	        Site name or code as defined in the reference paper
 Location_ID	(-)	        State, province, or region of sample, as defined in the reference paper
 Country		(-)             Country of sample
@@ -160,3 +159,4 @@ Collector	(-)	        Initials of sample collector
 Missing data:
 Numeric fields: -999
 Text fields: 'NA' or 'na'
+
