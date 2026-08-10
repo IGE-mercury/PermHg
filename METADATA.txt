@@ -154,6 +154,8 @@ SO4	        (mg/L) 	        Sulfate, milligrams per liter
 TDS	        (mg/L)	        Total dissolved solids, milligrams per liter
 Notes	        (-)	        Notes from collector regarding data
 Collector	(-)	        Initials of sample collector
+Range flag   (-)        Numerical indicator identifying observations outside predefined conservative screening thresholds: 500 ng g⁻¹ for soil, lake sediment, and vegetation, and 100 ng L⁻¹ for water. Values above these thresholds are flagged as "1"; all others are flagged as "0".
+Outlier flag (-)        Numerical indicator identifying observations exceeding three times the interquartile range (IQR). Outliers are flagged as 1; all others are flagged as 0.
 
 
 Missing data:
