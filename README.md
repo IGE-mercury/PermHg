@@ -9,13 +9,13 @@ The dataset is provided for long-term archiving and open reuse through Zenodo.
 
 ## Contents
 - `sediment_hg.csv` — Data file containing lake sediment Hg observations  
-- `soil_hg_.csv` — Data file containing lake soil Hg observations 
-- `vegetation_hg_.csv` — Data file containing vegetation Hg observations 
-- `water_hg_.csv` — Data file containing aqueous Hg observations  
+- `soil_hg.csv` — Data file containing lake soil Hg observations 
+- `vegetation_hg.csv` — Data file containing vegetation Hg observations 
+- `water_hg.csv` — Data file containing aqueous Hg observations  
 - `METADATA.txt` — Column descriptions, units, and data conventions  
 - `LICENSE.txt` — Data license information
 
-Files suffixed with `_template` are intended for future data submissions. The `.bib`` files represent the source publications discussed in the Source Identification section.
+Files suffixed with `_template` are intended for future data submissions. The `.bib` files represent the source publications discussed in the Source Identification section.
 
 ---
 
